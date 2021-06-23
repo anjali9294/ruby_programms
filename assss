@@ -1,0 +1,16 @@
+student belong to teacher
+teacher has many student
+student index <%= teacher.course.username if teacher.course%>
+student controller @student.course = course.first
+student belongs to course
+course has many student
+student = teacher_id
+
+teacher belong to course
+course has many teacher
+
+
+rvm use --default -v 2.7.2
+lsof -wni tcp:3000
+  
+kill -9 23445 <- (pid -23098)

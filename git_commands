@@ -1,0 +1,44 @@
+git status 
+git add . ,git add -A
+git init
+git commit -m "initial commit"
+git checkout file name (final commit wala change a jata h)
+git commit -a -m "iitial commit"
+git rm --chached file name (delete from the repo)
+git rm file name(file delete from every where )
+git log (all commits)
+git log -p -3 (show last 3 logs)
+
+branches
+
+git status
+git branch feature1 (feature1 is branch name)
+git branch
+git checkout feature1
+git status
+git add -A
+git commit -m "modiefe somthing"(data saved in feature branch)
+git status
+git checkout master(jump into master branch)
+git checkout feature1(jump to branch feature)
+commit
+status
+(for merge)
+git checkout master
+git  merge feature1(feature one merge with master)
+
+git checkout -b feature2(feature2 branch created and swiched in feacture2 branch)
+
+git remote set-url origin https... (remote url chnge krne ke liye)
+
+branch push krna
+
+git checkout feature1
+git push -u origin feature1(brach aded in our project)
+
+clone
+
+git clone url (pick url from project)
+
+
+
